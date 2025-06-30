@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <header id="js-head-app">
+        
+        <div class="head-app">
+
+            
+            <img src="assets/images/logo.svg" alt="" class="logo-app">
+
+            <div class="container-theme" id="js-theme">
+                <img src="assets/images/icon-moon.svg" alt="luna" class="selector-theme" >
+            </div>
+
+        </div>
+
+    </header>
+
+
+    <main>
+
+
+        <div class="nav">
+            <p class="main-name-app">Extensions List</p>
+
+            <div class="selector-container">
+                <label for="all-checkbox" class="selector-type" id="all-Btn">All</label>
+                <input style="display: none;" type="checkbox" name="all" id="all-checkbox">
+
+                <label for="active-checkbox" class="selector-type" id="active-Btn">Active</label>
+                <input style="display: none;" type="checkbox" name="all" id="active-checkbox">
+
+                <label for="inactive-checkbox" class="selector-type" id="inactive-Btn">Inactive</label>
+                <input style="display: none;" type="checkbox" name="all" id="inactive-checkbox">
+            </div>
+        </div>
+
+
+        <div class="grid">
+
+
+            <div class="card" id="devLens-card">
+                <div class="top-card">
+                    <img src="assets/images/logo-devlens.svg" alt="devlens logo" class="logo-card">
+                    <div class="extension-properties">
+                    <p class="extention-title">DevLens</p>
+                    <p class="extention-p">Quickly inspect page layouts and visualize element boundaries.</p>
+                    </div>
+                </div>
+                <div class="bottom-card">
+                    <p class="remove" id="devLens-remove">Remove</p>
+                    <label class="switch">
+                    <input type="checkbox" id="js-DevLens">
+                    <span class="slider"></span>
+                    </label>
+                </div>
+            </div>
+
+
+            <div class="card" id="styleSpy-card">
+                <div class="top-card">
+                    <img src="assets/images/logo-style-spy.svg" alt="stylespy logo" class="logo-card">
+                    <div class="extension-properties">
+                    <p class="extention-title">StyleSpy</p>
+                    <p class="extention-p">Instantly analyze and copy CSS from any webpage element.</p>
+                    </div>
+                </div>
+                <div class="bottom-card">
+                    <p class="remove" id="styleSpy-remove">Remove</p>
+                    <label class="switch">
+                    <input type="checkbox" id="js-StyleSpy">
+                    <span class="slider"></span>
+                    </label>
+                </div>
+            </div>
+
+
+            <div class="card" id="speedBoost-card">
+                <div class="top-card">
+                    <img src="assets/images/logo-speed-boost.svg" alt="speedboost logo" class="logo-card">
+                    <div class="extension-properties">
+                    <p class="extention-title">SpeedBoost</p>
+                    <p class="extention-p">Optimizes broswer resource usage to accelerate page loading.</p>
+                    </div>
+                </div>
+                <div class="bottom-card">
+                    <p class="remove" id="speedBoost-remove">Remove</p>
+                    <label class="switch">
+                    <input type="checkbox" id="js-SpeedBoost">
+                    <span class="slider"></span>
+                    </label>
+                </div>
+            </div>
+
+
+            <div class="card" id="JSONWizard-card">
+                <div class="top-card">
+                    <img src="assets/images/logo-json-wizard.svg" alt="JSONWizard logo" class="logo-card">
+                    <div class="extension-properties">
+                    <p class="extention-title">JSONWizard</p>
+                    <p class="extention-p">Formats, validates, and prettifies JSON responses in-broswer</p>
+                    </div>
+                </div>
+                <div class="bottom-card">
+                    <p class="remove" id="JSONWizard-remove">Remove</p>
+                    <label class="switch">
+                    <input type="checkbox" id="js-JSONWizard">
+                    <span class="slider"></span>
+                    </label>
+                </div>
+            </div>
+
+
+            <div class="card" id="tabMasterPro-card">
+                <div class="top-card">
+                    <img src="assets/images/logo-tab-master-pro.svg" alt="TabMaster logo" class="logo-card">
+                    <div class="extension-properties">
+                    <p class="extention-title">TabMaster Pro</p>
+                    <p class="extention-p">Organizes broswer tabs into groups and sessions.</p>
+                    </div>
+                </div>
+                <div class="bottom-card">
+                    <p class="remove" id="tabMasterPro-remove">Remove</p>
+                    <label class="switch">
+                    <input type="checkbox" id="js-TabMaster">
+                    <span class="slider"></span>
+                    </label>
+                </div>
+            </div>
+
+
+            <div class="card" id="viewportBuddy-card">
+                <div class="top-card">
+                    <img src="assets/images/logo-viewport-buddy.svg" alt="ViewportBuddy logo" class="logo-card">
+                    <div class="extension-properties">
+                    <p class="extention-title">ViewportBuddy</p>
+                    <p class="extention-p">Simulates various screen resolutions directly within the broswer.</p>
+                    </div>
+                </div>
+                <div class="bottom-card">
+                    <p class="remove" id="viewportBuddy-remove">Remove</p>
+                    <label class="switch">
+                    <input type="checkbox" id="js-ViewportBuddy">
+                    <span class="slider"></span>
+                    </label>
+                </div>
+            </div>
+
+
+            <div class="card" id="markupNotes-card">
+                <div class="top-card">
+                    <img src="assets/images/logo-markup-notes.svg" alt="MarkupNotes logo" class="logo-card">
+                    <div class="extension-properties">
+                    <p class="extention-title">Markup Notes</p>
+                    <p class="extention-p">Enables annotation and notes directly onto webpages for collaborative debugging.</p>
+                    </div>
+                </div>
+                <div class="bottom-card">
+                    <p class="remove" id="markupNotes-remove">Remove</p>
+                    <label class="switch">
+                    <input type="checkbox" id="js-MarkupNotes">
+                    <span class="slider"></span>
+                    </label>
+                </div>
+            </div>
+
+
+            <div class="card" id="gridGuides-card">
+                <div class="top-card">
+                    <img src="assets/images/logo-grid-guides.svg" alt="GridGuides logo" class="logo-card">
+                    <div class="extension-properties">
+                    <p class="extention-title">GridGuides</p>
+                    <p class="extention-p">Overlay customizable grids and alignment guides on any webpage.</p>
+                    </div>
+                </div>
+                <div class="bottom-card">
+                    <p class="remove" id="gridGuides-remove">Remove</p>
+                    <label class="switch">
+                    <input type="checkbox" id="js-GridGuides">
+                    <span class="slider"></span>
+                    </label>
+                </div>
+            </div>
+
+            
+            <div class="card" id="palettePicker-card">
+                <div class="top-card">
+                    <img src="assets/images/logo-palette-picker.svg" alt="Palettes Picker logo" class="logo-card">
+                    <div class="extension-properties">
+                    <p class="extention-title">Palette Picker</p>
+                    <p class="extention-p">Instantly extracts color palettes from any webpage</p>
+                    </div>
+                </div>
+                <div class="bottom-card">
+                    <p class="remove" id="palettePicker-remove">Remove</p>
+                    <label class="switch">
+                    <input type="checkbox" id="js-PalettePicker">
+                    <span class="slider"></span>
+                    </label>
+                </div>
+            </div>
+
+
+            <div class="card" id="linkChecker-card">
+                <div class="top-card">
+                    <img src="assets/images/logo-link-checker.svg" alt="LinkChecker logo" class="logo-card">
+                    <div class="extension-properties">
+                    <p class="extention-title">LinkChecker</p>
+                    <p class="extention-p">Scans and highlights broken links on any page.</p>
+                    </div>
+                </div>
+                <div class="bottom-card">
+                    <p class="remove" id="linkChecker-remove">Remove</p>
+                    <label class="switch">
+                    <input type="checkbox" id="js-LinkChecker">
+                    <span class="slider"></span>
+                    </label>
+                </div>
+            </div>
+
+
+            <div class="card" id="DOMSnapshot-card">
+                <div class="top-card">
+                    <img src="assets/images/logo-dom-snapshot.svg" alt="DOM Snapshot logo" class="logo-card">
+                    <div class="extension-properties">
+                    <p class="extention-title">DOM Snapshot</p>
+                    <p class="extention-p">Capture and export DOM structures quickly.</p>
+                    </div>
+                </div>
+                <div class="bottom-card">
+                    <p class="remove" id="DOMSnapshot-remove">Remove</p>
+                    <label class="switch">
+                    <input type="checkbox" id="js-DOMSnapshot">
+                    <span class="slider"></span>
+                    </label>
+                </div>
+            </div>
+
+
+            <div class="card" id="consolePlus-card">
+                <div class="top-card">
+                    <img src="assets/images/logo-console-plus.svg" alt="ConsolePlus logo" class="logo-card">
+                    <div class="extension-properties">
+                    <p class="extention-title">ConsolePlus</p>
+                    <p class="extention-p">Enhanced developer console with advanced filtering and logging.</p>
+                    </div>
+                </div>
+                <div class="bottom-card">
+                    <p class="remove" id="consolePlus-remove">Remove</p>
+                    <label class="switch">
+                    <input type="checkbox" id="js-ConsolePlus">
+                    <span class="slider"></span>
+                    </label>
+                </div>
+            </div>
+
+
+        </div>
+
+    
+    
+
+    </main>
+
+
+    <footer>
+
+    </footer>
+
+
+    <script src="variable.js"></script>
+    <script src="UpdateStyle.js"></script>
+    <script src="dark-mode.js"></script>
+    <script src="main.js"></script>
+    
+    <script src="ShowSelected.js"></script>
+    <script src="remove.js"></script>
+
+
+</body>
+</html>
